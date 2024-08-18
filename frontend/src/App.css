@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+i {
+  cursor: pointer;
+  color: red;
+}
+
+.App {
+  width: 1400px;
+  max-width: 95%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.App h2 {
+  margin: 20px 0px;
+}
+
+.contact__form label {
+  width: 100px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.contact__form div {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.contact__form input[type="text"],
+.contact__form input[type="email"],
+.contact__form textarea {
+  width: 400px;
+  border-radius: 8px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.contact__form textarea {
+  resize: none;
+  height: 150px;
+}
+
+.contact__form div {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  gap: 10px;
+}
+
+.contact__form div.button__container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contact__form button {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Contact Table */
+.contact__table {
+  margin: 0 auto;
+}
+
+.contact__table th,
+td {
+  border: 1px solid black;
+  padding: 10px;
+}
